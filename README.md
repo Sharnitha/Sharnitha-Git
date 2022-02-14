@@ -1,2 +1,3 @@
 # Sharnitha-Git
-Git Bash to Remote(GitHub)
+This is a sample proj in GitHub
+Integrate GitHub with Jenkins
