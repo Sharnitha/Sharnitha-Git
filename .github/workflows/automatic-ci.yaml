@@ -1,0 +1,16 @@
+name: Run Pipeline
+
+on:
+  workflow_dispatch:  # This allows the action to be triggered manually
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Run some command
+        run: |
+          echo "Running pipeline on the selected branch"
+        # Add your pipeline commands here
